@@ -45,5 +45,5 @@ int main(int argc, char *argv[]) {
     } else {
         printf("Launched process with pid: %d\n", pid);
     }
-    exit(0);
+    return 0;
 }
